@@ -44,7 +44,7 @@ module MobilePath
     #
     # Checks if the incoming request is using the mobile subdomain.
     def mobile_request?
-      (mobile_subdomain.present? and request.subdomains.first == mobile_subdomain) || mobile_browser?
+      (mobile_subdomain.present? && request.subdomains.first == mobile_subdomain) || mobile_browser?
     end
 
     #
