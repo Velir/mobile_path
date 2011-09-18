@@ -11,5 +11,4 @@ group :development do
   gem "rcov", ">= 0"
   gem "diesel", "~> 0.1"
   gem "sqlite3"
-  gem 'ruby-debug19', :require=>'ruby-debug'
 end
